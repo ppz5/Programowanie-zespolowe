@@ -1,0 +1,18 @@
+#srodek {
+float: left;
+width: 748px;
+border: 1px solid black;
+color: black;
+}
+            
+#srodek table {
+width: 100%;
+}
+            
+#srodek td {
+padding: 5px;
+}
+            
+#srodek td.lewa {
+text-align: right;
+}

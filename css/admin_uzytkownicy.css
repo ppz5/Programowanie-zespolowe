@@ -1,0 +1,40 @@
+#srodek {
+float: left;
+width: 708px;
+padding: 0 20px;
+border: 1px solid black;
+color: black;
+}
+
+#srodek table {
+width: 100%;
+margin-bottom: 15px;
+}
+
+#srodek th {
+padding: 5px;
+text-align: left;
+background-color: #BBBBBB;
+}
+
+#srodek td {
+padding: 5px;
+text-align: left;
+}
+            
+#srodek a {
+color: black;
+text-decoration: none;
+}
+
+.msg {
+color: #3B7F07;
+}
+
+.puste {
+background-color: #FFDFDF;
+}
+
+.format {
+background-color: #DFDFFF;
+}

@@ -1,0 +1,212 @@
+body {
+font-family: verdana;
+font-size: 12px;
+}
+
+#kontener {
+width: 1000px;
+padding: 0;
+margin: 0 auto;
+}
+
+#span3 {
+width: 250px;
+padding: 0;
+margin: 0 auto;
+float:left;
+}
+
+#span4 {
+width: 750px;
+padding: 0;
+margin: 0 auto;
+float:right;
+}
+
+#logo {
+padding: 0;
+margin: 0;
+color: 0;
+}
+            
+#menu_poziome {
+padding: 0;
+margin: 0 0 0 250px;
+list-style-type: none;
+}
+
+/*======================================================================================
+
+  //   MENU - NAV  //
+  
+=====================================================================================*/
+.menu {
+	margin-bottom: 20px;
+}
+nav.container {
+	padding: 0;
+	background: #000;
+}
+#jMenu {
+        width: 200;
+	display:table;
+	margin:0;
+	padding:0;
+	position: relative;
+	z-index: 3;
+	float: left;
+}
+/********************/
+/** premier niveau **/
+/********************/
+.smallText {
+	color: #ccc;
+	font-size: 9.2px;
+	font-weight: normal;
+}
+#jMenu li a.active .smallText, #jMenu li a:hover .smallText {
+	color: #fff;
+}
+#jMenu li {
+	display:table-cell;
+	margin:0;
+	float:left;
+	position: relative;
+}
+#jMenu li a {
+	display:block;
+	cursor:pointer;
+	font-size:15px;
+	color: #787878;
+	padding: 13px 20px;
+	margin-right: 0px;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in 0s;
+	-o-transition: all .3s ease-in 0s;
+	-moz-transition: all .3s ease-in 0s;
+	transition: all .3s ease-out 0s;
+	border-bottom: 3px solid transparent;
+}
+#jMenu li a.last { margin-right: 0 }
+
+#jMenu li a:hover, #jMenu li a.active {
+	text-decoration: none;
+	border-bottom: 3px solid #F5AF27;
+	color: #fff;
+	text-shadow: none;
+	-webkit-transition: all .3s ease-in 0s;
+	-o-transition: all .3s ease-in 0s;
+	-moz-transition: all .3s ease-in 0s;
+	transition: all .3s ease-out 0s;
+}
+/*******************/
+/** second niveau **/
+/*******************/
+#jMenu li ul {
+	display:none;
+	position:absolute;
+	padding:0;
+	margin:0;
+	width: 171px;
+	z-index: 5;
+	left: 0px !important;
+	border: 1px solid #000;
+}
+#jMenu li ul li {
+	padding:0;
+	width: 171px;
+	text-align: left;
+	text-shadow: none
+}
+#jMenu li ul li a {
+	font-size:12px;
+	display:block;
+	color: #eee;
+	background: #222;
+	padding: 7px 15px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-right: 0;
+	border-bottom: 1px solid #000;
+}
+#jMenu li ul li a:hover {
+	color: #eee;
+	padding: 7px 15px 7px 20px !important;
+	background: #333;
+	border-bottom: 1px solid #000;
+}
+#jMenu li ul li a.isParent {
+	background: #222 url(../images/arrow_right.png) no-repeat 95% 50%;
+	margin-right: 0;
+}
+#jMenu li ul li a.isParent:hover {
+	background: #333;
+}
+#jMenu li ul li ul {
+	left: 100% !important;
+	top: -1px !important;
+}
+
+#jMenu li ul li .smallText {
+	color: #f5af27;
+}
+
+#menu_poziome li {
+float: left;
+padding: 0;
+margin: 0;
+}
+
+#menu_poziome a {
+display: block;
+width: 250px;
+height: 30px;
+padding: 15px 0 0;
+margin: 0;
+text-decoration: none;
+color: black;
+background-image: url(../menu1.JPG);
+text-align: center;
+}
+
+#menu_poziome a:hover {
+background-image: url(../menu1_hover.JPG);
+color: white;
+}
+            
+#kontener2 {
+width: 1000px;
+clear: left;
+}
+            
+#menu_pionowe {
+width: 250px;
+float: left;
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+#menu_pionowe li {
+padding: 0;
+margin: 0;
+}
+
+#menu_pionowe a {
+display: block;
+width: 250px;
+height: 30px;
+padding: 15px 0 0;
+text-decoration: none;
+color: black;
+background-image: url(../menu2.JPG);
+text-align: center;
+}
+
+#menu_pionowe a:hover {
+background-image: url(../menu2_hover.JPG);
+color: white;
+}
