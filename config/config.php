@@ -53,6 +53,7 @@ $config['db']=array();
 //adres serwera
 
 
+
 $config['db']['host']='127.0.0.1';
 $config['db']['user']='anzzilla_p5';
 $config['db']['password']='1234';
