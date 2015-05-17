@@ -18,6 +18,7 @@
            
             </div>
             
+<<<<<<< HEAD
 
             
             <ul id="menu_poziome">
@@ -27,6 +28,13 @@
                 <li><a href="#">Kontakt</a></li>         
                 <li><a href="wyloguj.php">Wyloguj</a></li>
                                
+=======
+             <ul id="menu_poziome">
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Poradnik</a></li>
+                <li><a href="#">Nasz blog</a></li>
+                <li><a href="#">Kontakt</a></li>
+>>>>>>> origin/master
             </ul>
            
             <div id ="span3">
@@ -77,3 +85,4 @@
         </div>
     </body>
 </html>
+
