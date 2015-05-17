@@ -15,12 +15,18 @@
         <div id="kontener">
             <div id="logo">
                 <a href="index.php"><img src="logo.JPG" /></a>
+           
             </div>
             
+
+            
             <ul id="menu_poziome">
-                <li><a href="#">O Firmie</a></li>
-                <li><a href="#">Nasz zespół</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Poradnik</a></li>
+                <li><a href="#">Nasz blog</a></li>
+                <li><a href="#">Kontakt</a></li>         
+                <li><a href="wyloguj.php">Wyloguj</a></li>
+                               
             </ul>
            
             <div id ="span3">
@@ -30,22 +36,34 @@
                      <li><a href="wyszukaj_mieszkanie.php" class="fNiv active">Moje zlecenia<br/>
                                 
                             <ul>
-                                <li><a href="premiery.php">Wyszukaj zlecenia</a></li>
-                                <li><a href="warto.php">Dodaj zlecenie</a></li>
+                                
+                                <li><a href="zlecenie.php">Dodaj zlecenie</a></li>
+                               
+
+                            </ul>
+                        </li>
+                    
+                    <li><a href="wyszukaj_mieszkanie.php" class="fNiv active">Moje oferty<br/>
+                                
+                            <ul>
+                                <li><a href="wyszukiwarka.php">Wyszukaj zlecenie</a></li>
+                                <li><a href="skladaj.php">Złóż ofertę</a></li>
                                
 
                             </ul>
                         </li>
                     
                     <li><a href="koszyk.php">Koszyk (<span id="liczbaOfert">{$liczba_ofert[0]}</span>)</a></li>
-                    <li><a href="upload.php">Generuj ofertę</a>
+                    
                     <ul>
-                                <li><a href="drukuj_oferty.php">Drukuj ofertę</a></li>
-                            
+                                
+                             <li><a href="upload.php">Generuj ofertę</a>
+                             <li><a href="drukuj_oferty.php">Podgląd wydruku oferty</a></li>
+                                
                                
 
                             </ul>
-                    </li>
+                    
                     
                 </ul>
              </div> 
