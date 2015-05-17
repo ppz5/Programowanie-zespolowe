@@ -11,10 +11,10 @@ and open the template in the editor.
     
     <table cellspacing="0">
         <tr>
-            <td colspan="2">Dodaj zlecenie:</td>
+            <td colspan="2">Złóż ofertę:</td>
         </tr>
         <tr>
-            <td class="lewa">Nazwa zlecenia:</td>
+            <td class="lewa">Nazwa wykonawcy:</td>
             <td><input type="text" name="nazwa" size="21" /></td>
         </tr>
 
@@ -23,10 +23,14 @@ and open the template in the editor.
             <td> <textarea rows="5" cols="60" name="opis" width="690"/></textarea> </td>
         </tr>
        
+        <tr>
+            <td class="lewa">Zakończono</td>
+            <td><input type="checkbox" name="zakoncz" value="tak" /> </td>
+        </tr>
     </table>
-    Prześlij zlecenie:
-    <input type="submit" value="Wyślij" name="submit">
 
+    Złóż ofertę:
+    <input type="submit" value="Wy" name="submit">
 </form>
 
 

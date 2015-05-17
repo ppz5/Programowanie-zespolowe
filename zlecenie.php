@@ -5,7 +5,7 @@ require_once 'classes/Koszyk.php';
 $init = new Init();
 $koszyk = new Koszyk();
 $smarty = $init->getSmarty();
-$srodek = $smarty->fetch('upload.tpl');
+$srodek = $smarty->fetch('zlecenie.tpl');
 $smarty->assign('srodek',$srodek);
 $smarty->assign('inny_styl','wyszukaj.css');
 //$smarty->assign('tytul','Wyszukaj mieszkanie');
